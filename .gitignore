@@ -100,4 +100,28 @@ $RECYCLE.BIN/
 **/*.rewrite.sh
 **/*.refactor.sh
 
+# Go specific files
+# Binaries
+casspaces
+*.exe
+*.dll
+*.so
+*.dylib
 
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Runtime files
+*.log
+*.pid
+*.db
+*.sqlite
+
+# Local config
+config.local.yaml
